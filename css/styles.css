@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+body {
+  background-color: rgb(250, 228, 200);
+}
+body h1 {
+  font-family: "Sixtyfour";
+  text-shadow: 2px 2px lightgray;
+}
+body figcaption, body footer {
+  font-size: x-small;
+}
+body ul {
+  list-style-type: none;
+}
+body .smaller {
+  font-size: small;
+}/*# sourceMappingURL=styles.css.map */
