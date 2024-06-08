@@ -23,5 +23,25 @@ body {
     .smaller {
         font-size: small;
     }
+    .accordion-button {
+        background-image: linear-gradient(to bottom right, lightsteelblue, dimgray);
+        font-weight: bold;
+    }
+    .accordion-body ul{
+        // create arrows for the lists and dashes for the secondary lists
+        li {
+            list-style: none;
+        }
+        li::before {
+            content: "\2B9A"; 
+        }
+        ul {
+            list-style-type: none;
+            color:#616161;
+          }
+          ul li::before {
+            content: '\290F';
+          }
+    }
 
 }
